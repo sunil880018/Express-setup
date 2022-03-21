@@ -1,0 +1,9 @@
+1. npm init --y // creating package.json file
+2. npm i express --save // install locally for project
+3. create .gitignore and add node_modules in it.
+4. go to package.json and add --> "type":"module" for using import statement instead of require function
+5. node <file_name> // for running server file
+6. npm i nodemon // install nodemon for start server if you dont want restart server
+   again and again
+7. add "dev":""nodemon /app.js" into the script key of package.json file
+8. npm run dev // for running nodemon server 
